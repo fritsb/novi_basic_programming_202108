@@ -5,14 +5,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        // Hieronder zijn 3 variabelen die worden gebruikt
         int grade = 0;
         String studentName = "";
         boolean isRunning = true;
 
+        // Hieronder een while-lus die net zo lang blijft draaien zolang de boolean isRunning true is. isRunning wordt op false gezet op regel 57 als de gebruiker "NEE" opgeeft. 
         while(isRunning) {
             Scanner input = new Scanner(System.in);
             System.out.println("Geef naam op van de student:");
-            studentName = input.nextLine();
+            studentName = input.nextLine(); 
             System.out.println("De naam van de student is: " + studentName);
             System.out.println("Geef het cijfer op:");
             grade = input.nextInt();
