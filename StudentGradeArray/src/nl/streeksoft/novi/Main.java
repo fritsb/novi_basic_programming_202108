@@ -25,7 +25,22 @@ public class Main {
             input.nextLine(); // extra nextLine() om een bug op te lossen.
 
             System.out.println("Ingevoerde naam is: " + studentNames[counter] + " met cijfer: " + grades[counter]);
+
+
         }
+
+        // Hier roepen we dan de printData methode aan:
+        printData(studentNames, grades);
+    }
+
+    public static void printData(String[] names, byte[] grades) {
+        // Loop door beide arrays heen:
+
+
+
+
+
+
     }
 
 
