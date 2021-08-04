@@ -12,10 +12,10 @@ public class AppController {
             StudentGrade student = new StudentGrade();
             System.out.print("Studentnaam: ");
             student.studentName = input.nextLine();
-            System.out.println("Cijfer: ");
+            System.out.print("Cijfer: ");
             student.grade = input.nextByte();
             input.nextLine();
-            System.out.println("Leeftijd: ");
+            System.out.print("Leeftijd: ");
             student.age = input.nextByte();
             input.nextLine();
             students.add(student);
