@@ -3,6 +3,8 @@ package nl.streeksoft.novi;
 import java.util.Scanner;
 
 public class Menu {
+    AppController app = new AppController();
+    
     public void showOptions() {
         System.out.println("Maak een keuze uit de volgende opties:");
         System.out.println("1. Gegevens invoeren");
@@ -15,7 +17,6 @@ public class Menu {
         byte choice = input.nextByte();
 
         System.out.println("De volgende optie is gekozen: " + choice);
-        AppController app = new AppController();
 
         if(choice == 3) {
             System.exit(0);
