@@ -32,7 +32,7 @@ public class Main {
                 input.nextLine(); // extra nextLine() omdat we hiervoor nextByte() gebruiken.
 
                 // Hieronder controleren we de data en zetten we correctAnswer op true. Daardoor stopt de while-loop.
-                if(!studentNames[counter].equals("") && (grades[counter] >= 1 && grades[counter] <= 10) ) {
+                if(!studentNames[counter].isEmpty() && (grades[counter] >= 1 && grades[counter] <= 10) ) {
                     correctAnswer = true;
                     System.out.println("Ingevoerde naam is: " + studentNames[counter] + " met cijfer: " + grades[counter]);
                 }
