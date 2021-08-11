@@ -1,0 +1,2 @@
+name='Hassan Sifan', gender='vrouw', sport='Atletiek', discipline='10.000m', medal= GOUD
+name='Abdi Nageeye', gender='man', sport='Atletiek', discipline='Marathon', medal= ZILVER 

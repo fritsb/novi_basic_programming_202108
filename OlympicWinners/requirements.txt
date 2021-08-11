@@ -1,0 +1,15 @@
+
+
+Applicatie om Nederlandse medaille winnaars te bekijken en te registeren.
+Standaard komt er een lijst van winnaars; naam, geslacht, sport, discipline en soort medaille (must have)
+Gebruiker kan de lijst bekijken (must have)
+Gebruiker kan de lijst exporteren naar een text-bestand (must have)
+Gebruiker kan tekst-bestand importeren  met data.
+
+
+Gebruikersinput:
+- Besturing van keuzemenu (must have)
+- Invoer van extra medaille winnaars (should have).
+
+Security:
+- Beveiligde opslag van gegevens. (should have)
